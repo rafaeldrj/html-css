@@ -12,9 +12,31 @@
       aumente e diminua o tamanho do seu navegador.
     </p>
     <picture>
-      <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
-      <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-      <img src="imagens/foto-g.png" alt="Imagem flexivel">
+      <source
+        media="(max-width: 750px)"
+        srcset="imagens/foto-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/foto-m.png"
+        type="image/png"
+      />
+      <img src="imagens/foto-g.png" alt="Imagem flexivel" />
     </picture>
+    <h1>Reproduzindo audio</h1>
+    <!-- <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    MP3 WAV OGG -->
+    <audio preload="metadata" controls>
+      <source src="midia/guanacast-33.mp3" type="audio/mpeg" />
+      <source src="midia/guanacast-33.ogg" type="audio/ogg" />
+      <source src="midia/guanacast-33.wav" type="audio/wav" />
+      <p>
+        Infelizmente seu navegador nao consegue reproduzir audio.
+        <a href="midia/guanacast-33.mp3"
+          >Clique aqui para baixar o arquivo MP3.</a
+        >
+      </p>
+    </audio>
   </body>
 </html>
