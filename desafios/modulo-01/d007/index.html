@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Imagem Flexivel</title>
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <h1>Imagem Flexivel</h1>
   <p>Voce esta vendo a imagem completa? Experimente ampliar p tamanho da sua janela para aproveitar a melhor experiencia. &#x1F92F</p>
-  <p><img src="" alt=""></p>
-  
+  <picture>
+    <source media="(max-width:500px)" srcset="imagens/paisagem-p.png" type="image/png"/>
+    <source media="(max-width:800px)" srcset="imagens/paisagem-m.png" type="image/png"/>
+    <img src="imagens/paisagem-g.png" alt="Imagem grande">
+  </picture>  
 </body>
 </html>
