@@ -140,17 +140,17 @@ aside {
   background-color: var(--cor1);
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.300);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 aside > ul {
   list-style-position: inside;
   columns: 2;
   list-style-type: "\2714\00A0\00A0";
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.250);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   padding: 7px;
   border-radius: 7px;
-  background-color: var(--cor3);  
+  background-color: var(--cor3);
 }
 
 aside > h3 {
