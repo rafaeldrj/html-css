@@ -19,4 +19,4 @@
 
  <a href= "https://rafaeldrj.github.io/html-css/desafios/modulo-01/d009/index.html">Executar o desafio 009 do Modulo 1</a>
 
- <a href= "https://rafaeldrj.github.io/html-css/desafios/modulo-02/d001/index.html">Executar o desafio 001 do Modulo 2</a>
+ <a href= "https://rafaeldrj.github.io/html-css/desafios/modulo-02/d001/android.html">Executar o desafio 001 do Modulo 2</a>
