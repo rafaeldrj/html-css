@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+  background-color: black;
+}
+
+header {
+  color: white;
+}
+
+article {
+  background-color: white;
+}
+
+footer > p {
+  color: white;
+}
