@@ -1,17 +1,13 @@
 @charset "UTF-8";
 
 body {
-  background-color: black;
-}
-
-header {
-  color: white;
-}
-
-article {
   background-color: white;
 }
 
+header {
+  color: black;
+}
+
 footer > p {
-  color: white;
+  color: black;
 }
