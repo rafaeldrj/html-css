@@ -36,66 +36,72 @@
       .cfilmes {
         background-color: aqua;
       }
+
+      div#container {
+        overflow-x: auto;
+      }
     </style>
   </head>
   <body>
     <h1>Exercicios de Tabelas</h1>
-    <table>
-      <colgroup>
-        <col class="cgrupo"/>
-        <col class="cnomes"/>
-        <col class="cfilmes" span="3"/>
-      </colgroup>
-      <caption>
-        Filmes Favoritos
-      </caption>
-      <thead>
-        <tr>
-          <th scope="col">Grupos</th>
-          <th scope="col">Nomes</th>
-          <th colspan="3" scope="colgroup">Filmes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th rowspan="3" scope="colgroup">Mulheres</th>
-          <td>Ana Maria Santos</td>
-          <td>Alien</td>
-          <td>Rambo</td>
-          <td>Vingadores</td>
-        </tr>
-        <tr>
-          <td>Beatriz Souza</td>
-          <td>Hulk</td>
-          <td>Inception</td>
-          <td>Batman</td>
-        </tr>
-        <tr>
-          <td>Claudia Melo</td>
-          <td>Oblivion</td>
-          <td>Matrix</td>
-          <td>Big Hero</td>
-        </tr>
-        <tr>
-          <th rowspan="3" scope="colgroup">Homens</th>
-          <td>Bruno Mendoca</td>
-          <td>Intocaveis</td>
-          <td>Amnesia</td>
-          <td>Gladiador</td>
-        </tr>
-        <tr>
-          <td>Daniel Lourenco</td>
-          <td>Wall-E</td>
-          <td>Oldboy</td>
-          <td>Dangal</td>
-        </tr>
-        <tr>
-          <td>Fabiano Mota</td>
-          <td>Star Wars 5</td>
-          <td>Taxi Driver</td>
-          <td>Toy Story</td>
-        </tr>
-      </tbody>
-    </table>
+    <div id="container">
+      <table>
+        <colgroup>
+          <col class="cgrupo"/>
+          <col class="cnomes"/>
+          <col class="cfilmes" span="3"/>
+        </colgroup>
+        <caption>
+          Filmes Favoritos
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="3" scope="colgroup">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+          </tr>
+          <tr>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+          </tr>
+          <tr>
+            <td>Claudia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+          </tr>
+          <tr>
+            <th rowspan="3" scope="colgroup">Homens</th>
+            <td>Bruno Mendoca</td>
+            <td>Intocaveis</td>
+            <td>Amnesia</td>
+            <td>Gladiador</td>
+          </tr>
+          <tr>
+            <td>Daniel Lourenco</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+          </tr>
+          <tr>
+            <td>Fabiano Mota</td>
+            <td>Star Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
