@@ -24,11 +24,28 @@
         border: 1px solid black;
         padding: 10px;
       }
+
+      .cgrupo {
+        background-color: darkgray;
+      }
+
+      .cnomes { 
+        background-color: bisque;
+      }
+
+      .cfilmes {
+        background-color: aqua;
+      }
     </style>
   </head>
   <body>
     <h1>Exercicios de Tabelas</h1>
     <table>
+      <colgroup>
+        <col class="cgrupo"/>
+        <col class="cnomes"/>
+        <col class="cfilmes" span="3"/>
+      </colgroup>
       <caption>
         Filmes Favoritos
       </caption>
